@@ -24,7 +24,7 @@ $(function() {
     (month<10 ? '0' : '') + month + '/' +
     (day<10 ? '0' : '') + day + '/' + year
 
-    $('.date').text(`${d}`)
+    $('.date').text(`${output}`)
 
 
     function setDayColor() {
